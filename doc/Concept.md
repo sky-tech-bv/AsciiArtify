@@ -20,16 +20,16 @@ It is an open source CNCF certified Kubernetes installer that supports highly av
 | **Solutions**   | **minikube**    | **kind**     | **k3d**      |
 |--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
 | runtime | VM | container | native |
-|  suported/architectures | AMD64 | AMD64 | AMD64, ARMv7, ARM64 |
+|  suported<br>architectures | AMD64 | AMD64 | AMD64, ARMv7, ARM64 |
 |  supported container runtimes| Docker,CRI-O,containerd,gvisor | Docker | Docker, containerd |
-|  startup time initial/following | 5:19 / 3:15 | 2:48 / 1:06 | 0:15 / 0:15|
+|  startup time initial<br>following | 5:19 <br> 3:15 | 2:48 <br> 1:06 | 0:15 <br> 0:15|
 |  memory requirements | 2GB | 8GB (Windows, MacOS) | 512MB|
 |  requires root? | no | no | yes (rootless is experimental) |
 |  multi-cluster support | yes | yes | no (can be achieved using containers) |
 |  multi-node support | no | yes | yes |
 |  project page | [minikube](https://minikube.sigs.k8s.io/docs/) | [kind](https://kind.sigs.k8s.io/) | [k3d](https://k3s.io/)|
-|  advantages | + Beginer freandly tool (easy to use)/+ Supports multi-node clusters, allowing users to simulate more complex Kubernetes environments locally/+Comes with several useful add-ons and features, such as dashboard and storage provisioners|  + Quick cluster provisioning/+ Well integrates with Docker tools/+ Easy to install and use | + Definetely is the best options to simulate a real production environment locally/+ Similar to Kind, K3d offers fast cluster creation by leveraging Docker containers  |
-|  disadvantages | - Resourse intensive/- Starting Minikube clusters can take some time/- Relies on virtualization technologies| - Designed for single-node clusters, limiting its use for scenarios that require multi-node setups/- Networking in Kind may not fully replicate the complexities of a production Kubernetes environment | - Need to manually configure extra virtual machines or nodes/- Similar to Kind, K3d relies on Docker, which might be a limitation in certain environments. |
+|  advantages | + Beginer freandly tool (easy to use)<br>+ Supports multi-node clusters, allowing users to simulate more complex Kubernetes environments locally<br>+Comes with several useful add-ons and features, such as dashboard and storage provisioners|  + Quick cluster provisioning<br>+ Well integrates with Docker tools<br>+ Easy to install and use | + Definetely is the best options to simulate a real production environment locally<br>+ Similar to Kind, K3d offers fast cluster creation by leveraging Docker containers  |
+|  disadvantages | - Resourse intensive<br>- Starting Minikube clusters can take some time<br>- Relies on virtualization technologies| - Designed for single-node clusters, limiting its use for scenarios that require multi-node setups<br>- Networking in Kind may not fully replicate the complexities of a production Kubernetes environment | - Need to manually configure extra virtual machines or nodes<br>- Similar to Kind, K3d relies on Docker, which might be a limitation in certain environments. |
 
 ## Demonstration
 Use [Vitaly Umanet's](https://github.com/vit-um/AsciiArtify/blob/main/doc/.img/622883.gif) animation for this purposes 
