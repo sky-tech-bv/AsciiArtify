@@ -34,8 +34,6 @@ It is an open source CNCF certified Kubernetes installer that supports highly av
 ## Demonstration
 ![Application on Kubernetes](./../img/625998.gif)
 
-![Application on Kubernetes](https://github.com/vit-um/AsciiArtify/blob/main/doc/.img/622883.gif)   
-
 ## Conclusion
 The final solution can be approved only after testing all the products with customer's real-word tasks. In ferst biew, the best option for AsciiArtify team's purposes is k3d.
 
