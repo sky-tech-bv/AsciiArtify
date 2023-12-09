@@ -32,7 +32,7 @@ It is an open source CNCF certified Kubernetes installer that supports highly av
 |  disadvantages | - Resourse intensive<br>- Starting Minikube clusters can take some time<br>- Relies on virtualization technologies| - Designed for single-node clusters, limiting its use for scenarios that require multi-node setups<br>- Networking in Kind may not fully replicate the complexities of a production Kubernetes environment | - Need to manually configure extra virtual machines or nodes<br>- Similar to Kind, K3d relies on Docker, which might be a limitation in certain environments. |
 
 ## Demonstration
-Use [Vitaly Umanet's](https://github.com/vit-um/AsciiArtify/blob/main/doc/.img/622883.gif) animation for this purposes 
+[Application on Kubernetes](./../img/625998.gif)
 
 ![Application on Kubernetes](https://github.com/vit-um/AsciiArtify/blob/main/doc/.img/622883.gif)   
 
